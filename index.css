@@ -29,6 +29,7 @@ body {
     text-decoration: none;
     color: aliceblue;
     padding: 10px;
+    
 
 }
 .logo {
@@ -42,38 +43,128 @@ body {
 }
 .primeiro-container {
     background-color: grey;
-    display: inline-block;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 90px;
 }
 .texto-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-   align-content: space-around;
+    text-align: left;
+    flex-basis: 400px;
+    margin-right: 50px;
+
+
 }
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+    font-weight: bold;
+    margin: 0;
 }
 .paragrafo {
     font-size: 20px;
-    padding-left: 80px;
     width: 500px;
 }
 
 .container-foto {
     display: flex;
-    padding-left: 60px;
-    padding-top: 60px;
-    justify-items: flex-end;
-    width: max-content;
+    
+    
 }
-.foto1{
-    width: 200px;
-    height: 200px;
+.foto-bibi{
+    width: 300px;
+    height: 350px;
     
     
 }
 .botao-agenda {
-    width: 100px;
+    width: 110px;
+    background-color: purple;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+.conteudo {
+}
+.flex-tatoo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.foto-tatoo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid purple;
+    border-radius: 15px;
+
+}
+.flex-tatoo p {
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quote {
+    background-color: rgb(194, 162, 224);
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+    
+}
+.quote p {
+    width: 1000px;
+    height: 200px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right; 
+}
+
+.agendar {
+    background-color: rgb(240, 167, 212);
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    border-radius: 8px;
+    
+}
+.agendar-texto {
+    text-align: left;
+
+}
+.agendar-texto h5 {
+    font-size: 18px;
+}
+.botao-wpp {
+    background-color: green;
+    color: #fff;
+    width: 110px;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bolder;
+    display: block;
+}
+
+
+
+
+
+.footer {
+    background-color: gray;
 }
