@@ -1,3 +1,4 @@
 # landing-page
 
-The odin project rocks !!
+The odin project rocks !! 
+SOme changes made
